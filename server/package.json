@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Express GraphQl Server for the book Search Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Sam David",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
