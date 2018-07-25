@@ -30,9 +30,9 @@ const AuthorType = new GraphQLObjectType({
     name: { type: GraphQLString },
     age: { type: GraphQLInt },
     books: {
-      type: GraphQLList(BookType),
+      type: new GraphQLList(BookType),
       resolve (parent, args) {
-        
+
       }
     }
   })
