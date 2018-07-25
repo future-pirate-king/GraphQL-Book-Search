@@ -16,6 +16,7 @@
         "react/prop-types": "off",
         "react/button-has-type": "off",
         "react/jsx-closing-bracket-location": "off",
+        "react/no-unescaped-entities": "off",
         "no-shadow": "off",
         "arrow-parens": "off",
         "padded-blocks": "off",
