@@ -17,6 +17,7 @@
         "react/button-has-type": "off",
         "react/jsx-closing-bracket-location": "off",
         "react/no-unescaped-entities": "off",
+        "jsx-a11y/label-has-for": "off",
         "no-shadow": "off",
         "arrow-parens": "off",
         "padded-blocks": "off",
