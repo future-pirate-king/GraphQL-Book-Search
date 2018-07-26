@@ -4,22 +4,10 @@ import { getAuthorsQuery, addBookMutation, getBooksQuery } from '../queries/quer
 
 class AddBook extends Component {
 
-  state = {
-    name: '',
-    genre: '',
-    authorId: '',
-  };
-
   handleSubmit = (e) => {
     e.preventDefault();
     const { elements } = e.target;
     const { name, genre, authorId } = elements;
-
-    this.setState({
-      name: name.value,
-      genre: genre.value,
-      authorId: authorId.value,
-    });
 
     this.addBook(name.value, genre.value, authorId.value);
   }
