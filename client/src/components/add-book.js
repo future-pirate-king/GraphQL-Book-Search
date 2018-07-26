@@ -38,7 +38,7 @@ class AddBook extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form id="addBook" onSubmit={this.handleSubmit}>
         <h3>Add Book</h3>
         <div>
           <label htmlFor="bookName">

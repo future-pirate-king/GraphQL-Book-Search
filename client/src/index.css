@@ -2,4 +2,131 @@ body {
   margin: 0;
   padding: 0;
   font-family: Roboto Condensed;
+  background-color: #eeeeee;
+}
+
+.App h1 {
+  text-align: left;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.8)
+}
+
+#book-list {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+#book-list li {
+  list-style: none;
+}
+
+#book-list li button {
+  background-color: transparent;
+  border: 3px solid dodgerblue;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px;
+  box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+#book-list li button:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+#addBook {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: center;
+ position: relative;
+ left: 15px;
+ bottom: 0px;
+ border-radius: 5px;
+ padding: 0 20px 10px 20px;
+ background-color: white;
+ box-sizing: border-box;
+ box-shadow: 4px 8px 20px rgba(0,0,0,0.4);
+}
+
+#addBook h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#addBook div {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#addBook label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#addBook input {
+  background: transparent;
+  border: none;
+  margin-left: 10px;
+  border-bottom: 3px solid dodgerblue;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#addBook select {
+  margin-left: 10px;
+  border: 3px solid dodgerblue;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#addBook select option {
+  font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#addBook button {
+  padding: 10px 14px;
+  border-radius: 50%;
+  border: none;
+  font-weight: bold;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 18px; 
+  box-shadow: 4px 8px 20px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+#main {
+  display: flex;
+}
+
+#details {
+  margin: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: dodgerblue;
+  box-shadow: -4px -8px 20px rgba(0,0,0,0.4);
+  width: 35%;
+  height: 100%;
+  padding: 15px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 18px;
 }

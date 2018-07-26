@@ -18,7 +18,7 @@ class BookList extends Component {
     }
 
     return (
-      <ul>
+      <ul id="book-list">
         {
           data.books.map(book => (
             <li key={book.id}>
@@ -33,7 +33,7 @@ class BookList extends Component {
   render() {
 
     return (
-      <div>
+      <div id="main">
         { this.displayBooks() }
         <BookDetails bookId={this.state.selected} />
       </div>
